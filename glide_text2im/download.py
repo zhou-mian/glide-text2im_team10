@@ -14,7 +14,19 @@ MODEL_PATHS = {
     "upsample-inpaint": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/upsample_inpaint.pt",
     "clip/image-enc": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/clip_image_enc.pt",
     "clip/text-enc": "https://openaipublic.blob.core.windows.net/diffusion/dec-2021/clip_text_enc.pt",
+
+    # Point-E models:
+    "base40M-imagevec": "https://openaipublic.azureedge.net/main/point-e/base_40m_imagevec.pt",
+    "base40M-textvec": "https://openaipublic.azureedge.net/main/point-e/base_40m_textvec.pt",
+    "base40M-uncond": "https://openaipublic.azureedge.net/main/point-e/base_40m_uncond.pt",
+    "base40M": "https://openaipublic.azureedge.net/main/point-e/base_40m.pt",
+    "base300M": "https://openaipublic.azureedge.net/main/point-e/base_300m.pt",
+    "base1B": "https://openaipublic.azureedge.net/main/point-e/base_1b.pt",
+    "upsamplePointE": "https://openaipublic.azureedge.net/main/point-e/upsample_40m.pt",
+    "sdf": "https://openaipublic.azureedge.net/main/point-e/sdf.pt",
+    "pointnet": "https://openaipublic.azureedge.net/main/point-e/pointnet.pt",
 }
+
 
 
 @lru_cache()
